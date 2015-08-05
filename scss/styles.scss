@@ -21,8 +21,19 @@ body {
 
 section {
 	min-height: 100%;
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding: 50px 0;
+}
+
+.section-image-container {
+	background-color: red;
+	background: linear-gradient(#fff, #ddd);
+}
+
+.section-image {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	
 }
 
 #side1, #side3 {
