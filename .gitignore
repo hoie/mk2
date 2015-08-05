@@ -1,0 +1,11 @@
+.DS_Store
+
+# Dependency directories
+node_modules
+
+# Build files
+dist
+
+# Large asset files
+assets
+•Arbeidsfiler
