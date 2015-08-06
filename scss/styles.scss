@@ -1,4 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
 
 @import 'vendor/bootstrap-custom';
 @import 'vendor/animate';
@@ -14,36 +15,68 @@ html, body {
 }
 body {
 	position: relative;
+    font-weight: 300;
+    padding-top: 100px;
 }
 
-
+h1, h2 {
+    text-transform: uppercase;
+}
 
 section {
 	min-height: 100%;
 	padding: 50px 0;
 }
 
+#innhold {
+    background-color: #ddd;
+    min-height: 25%;
+}
+        
+#innhold:before {
+    content: "";
+    display: table;
+    height: 100px;
+}
+
+#header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ccc;
+    z-index: 1;
+    h4 {
+        font-size: 0.86em;
+        margin: 20px 0;
+        @media (min-width: 1152px) {
+            font-size: 1.5em;
+        }
+    }
+}
+
+
 .section-image-container {
-	background-color: red;
-	background: linear-gradient(#fff, #ddd);
+    background-color: red;
+    background: linear-gradient(#fff, #ddd);
 }
 
 .section-image {
-	max-width: 800px;
-	margin: 0 auto;
-	text-align: center;
-	
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 
-.fill-screen {	
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	
-	@media (max-width: 1024px) {
-		background-attachment: scroll;
-	}
+.fill-screen {  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    @media (max-width: 1024px) {
+        background-attachment: scroll;
+    }
 }
 
 .center-vertical-container {
@@ -95,6 +128,7 @@ section {
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
+    top: 0;
     right: 0;
     width: 250px;
     height: 100%;
@@ -155,7 +189,7 @@ section {
 }
 
 #menu-toggle {
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0;
     right: 0;
