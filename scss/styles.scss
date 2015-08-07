@@ -62,7 +62,12 @@ section {
             font-size: 3em;
         }
     }
-
+    .lead {
+        font-size: 1.1em;
+         @media (min-width: 1152px) {
+            font-size: 1.4em;
+        }
+    }
 }
 
 
