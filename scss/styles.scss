@@ -47,10 +47,25 @@ section {
     background-color: #ccc;
     z-index: 1;
     h4 {
-        font-size: 0.86em;
+        font-size: 0.80em;
         margin: 20px 0;
         @media (min-width: 1152px) {
-            font-size: 1.5em;
+            font-size: 1.3em;
+        }
+    }
+}
+
+#smart-valg {
+    h1 {
+        font-size: 1.5em;
+         @media (min-width: 1152px) {
+            font-size: 3em;
+        }
+    }
+    .lead {
+        font-size: 1.1em;
+         @media (min-width: 1152px) {
+            font-size: 1.4em;
         }
     }
 }
