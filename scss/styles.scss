@@ -16,7 +16,7 @@ html, body {
 body {
 	position: relative;
     font-weight: 300;
-    padding-top: 100px;
+    // padding-top: 100px;
 }
 
 h1, h2 {
@@ -25,15 +25,18 @@ h1, h2 {
 
 section {
 	// min-height: 100%;
-	padding: 50px 0;
+	padding: 50px 0 100px;
+    text-align: center;
 }
 
-#innhold {
+.no-img {
     background-color: #ddd;
+    background: linear-gradient(#ddd, #fff);
+
     min-height: 25%;
 }
         
-#innhold:before {
+.no-img:before {
     content: "";
     display: table;
     height: 100px;
@@ -43,7 +46,7 @@ section {
     text-align: center;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 100;
     background-color: #ccc;
     z-index: 1;
     h4 {
@@ -70,10 +73,16 @@ section {
     }
 }
 
+#footer {
+    margin-top: 60px;
+    border-top: 2px solid #ddd;
+    margin-bottom: 100px;
+}
+
 
 .section-image-container {
-    background-color: red;
-    background: linear-gradient(#fff, #ddd);
+    background-color: #ddd;
+    background: linear-gradient(#ddd, #fff);
 }
 
 .section-image {
