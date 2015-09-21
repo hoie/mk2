@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Jørn Arnold Jensen> -- <text & illustrations>
+    <Øyvind Høie> -- <developer>
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JAVASCRIPT
+    Bootstrap, jQuery, Animate.css, HTML5 Boilerplate, Gulp, Surge

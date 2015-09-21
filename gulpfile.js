@@ -25,7 +25,7 @@ var environment = options.environment || 'development';
 
 gulp.task('html', function(){
 	return gulp
-	.src('*.{html,ico,png}')
+	.src('*.{html,ico,png,txt}')
 	.pipe(gulp.dest('dist'))
 	.pipe(reload());
 });
